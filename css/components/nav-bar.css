@@ -10,3 +10,51 @@
   display: flex;
   justify-content: space-between;
 }
+
+.nav__link {
+  position: relative;
+}
+
+@keyframes upsideDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.nav__chatNotification {
+  display: block;
+  background-color: #00539c;
+  color: white;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  font-size: 7px;
+  line-height: 18px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  left: 17px;
+  bottom: 15px;
+  animation-name: upsideDown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.nav__notification {
+  display: block;
+  background-color: #00539c;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  position: absolute;
+  left: 23px;
+  top: -4px;
+  animation-name: upsideDown;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
