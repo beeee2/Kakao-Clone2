@@ -58,3 +58,9 @@
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
+.nav__link i {
+  transition: all 0.2s linear;
+}
+.nav__link i:hover {
+  transform: scale(1.5, 1.5);
+}

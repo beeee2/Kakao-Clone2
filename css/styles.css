@@ -14,6 +14,7 @@ font-family: 'Noto Sans KR', sans-serif;
 */
 
 body {
+  padding-top: 27px;
   font-family: "Noto Sans KR", sans-serif;
   color: #2d3436;
   background-color: #ffd662;
