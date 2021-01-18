@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>카카오톡에 오신 걸 환영합니다</title>
+    <title>친구 목록창</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -22,17 +22,22 @@
             <i class="fas fa-bolt"></i>
         </div>
     </div>
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">카카오톡에 오신 걸 환영합니다</h1>
-        <p class="welcome-header__text">카카오톡 계정을 가지고 있다면<br> 이메일 또는 핸드폰 번호로 로그인해주세요</p>
-    </header>
-    <form id="login-form" action="friends.html" method="get">
-        <input name="id" type="text" placeholder="이메일 또는 핸드폰번호">
-        <input name="password" type="password" placeholder="비밀번호">
-        <button class="login-form__login">로그인</button>
-        <button class="login-form__signUp">회원가입</button>
-        <a href="#">계정 또는 비밀번호 찾기</a>
-    </form>
+    <nav class="nav">
+        <ul class="nav__ul">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html"><i class="fas fa-user fa-lg"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="#"><i class="far fa-comment fa-lg"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href=""><i class="fas fa-search fa-lg"></i></a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href=""><i class="fas fa-ellipsis-h fa-lg"></i></a>
+            </li>
+        </ul>
+    </nav>
     <script src="https://kit.fontawesome.com/3c26041fb8.js" crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
