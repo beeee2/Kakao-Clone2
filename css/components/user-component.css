@@ -1,15 +1,61 @@
-.user-component {
-  display: flex;
-}
-
+.user-component,
 .user-component__column {
   display: flex;
+  align-items: center;
 }
-
+.user-component {
+  justify-content: space-between;
+  margin: 10px 0;
+}
 .user-component__avatar {
-  background: url(https://github.com/beeee2/Kakao-Clone2/blob/main/img/me.jpg?raw=true)
-    no-repeat center/cover;
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  margin-right: 20px;
+}
+.user-component__text {
+  position: relative;
+}
+.user-component__title {
+  font-size: 21px;
+  font-weight: 600;
+}
+.fa-birthday-cake {
+  position: absolute;
+  left: 65px;
+  bottom: 2.75px;
+}
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+.user-component__giftWrap {
+  border: 2px solid #00539c;
+  padding: 7.5px;
+  border-radius: 10px;
+}
+.user-component__giftWrap:hover {
+  cursor: pointer;
+}
+.friends-screen__birthDay {
+  margin-top: 25px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.friends-screen__birthDay-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.75);
 }
