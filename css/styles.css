@@ -9,6 +9,7 @@
 
 /* screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 
 /* 
 font-family: 'Lora', serif;
